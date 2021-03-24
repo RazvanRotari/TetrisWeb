@@ -1,0 +1,33 @@
+#table {
+    background-color: black;
+    display: flex;
+    //height: 500px;
+	width: 300px;
+    flex-wrap: wrap;
+	border: 2px solid red;
+}
+
+.item {
+    width: 5%;
+	height: 15px;
+	object-fit: contain;
+}
+
+
+.active {
+	background-color: black;
+}
+
+.inactive {
+	background-color: grey;
+}
+.empty {
+
+	background-color: white;
+}
+
+.end {
+}
+.running {
+	display: none;
+}
